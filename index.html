@@ -1,0 +1,46 @@
+<!-- Create a new HTML page named signup.html. Beginning with
+the Bootstrap Checkout example as a guide, create a “Sign Up”
+page with form fields for first and last name, username,
+email, and password. The password field should be
+repeated twice, and should obscure the text that is entered. -->
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>SignUp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+    <link rel="stylesheet" href="stylesheets/styles.css"
+  </head>
+  <body>
+  <header><h1>SignUp page </h1></header>
+  <form>
+    <div class="form-group">
+      <label for="firstName">First Name</label>
+      <input type="text" class="form-control" id="firstName" placeholder="" value="" required>
+    </div>
+    <div class="form-group">
+      <label for="lastName">Last Name</label>
+      <input type="text" class="form-control" id="lastName" placeholder="" value="" required>
+    </div>
+  <div class="form-group">
+    <label for="exampleEmail1">Email address</label>
+    <input type="email" class="form-control" id="exampleEmail1" aria-describedby="emailHelp">
+    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+  </div>
+  <div class="form-group">
+    <label for="examplePassword1">Password</label>
+    <input type="password" class="form-control" id="examplePassword1" required>
+  </div>
+  <div class="form-group">
+    <label for="confimPassword1"> Confirm Password</label>
+    <input type="password" class="form-control" id="confirmPassword1" required>
+  </div>
+  <div class="form-group form-check">
+    <input type="checkbox" class="form-check-input" id="exampleCheck1">
+    <label class="form-check-label" for="exampleCheck1">Check me out</label>
+  </div>
+  <button type="submit" class="btn btn-primary">Submit</button>
+</form>
+  </body>
+</html>
